@@ -1,4 +1,4 @@
-/*function emptyObject (obj) {
+function emptyObject (obj) {
   for (let key in obj) {
     return false;
   }
@@ -20,7 +20,7 @@ function numbersKey (object) {
     console.log(object[key]);
 }
 }
-console.log(numbersKey());*/
+console.log(numbersKey());
 
 
 function doubleSalaries(salaries) {
