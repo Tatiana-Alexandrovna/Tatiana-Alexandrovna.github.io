@@ -26,9 +26,11 @@ const ul = document.querySelector('ul');
 ul.append(li);
 
 //8
-const greenLi = document.querySelector('ol');
-greenLi.style.backgroundColor = 'green';
+const greenLi = document.querySelectorAll('ol > li');
+for( let i = 0; i < greenLi.length; i++)
+greenLi[i].style.backgroundColor = 'green';
 
 //9
 const divFooter = document.querySelector('div.footer');
 divFooter.remove();
+
