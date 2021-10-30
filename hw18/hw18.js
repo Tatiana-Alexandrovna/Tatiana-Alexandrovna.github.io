@@ -12,7 +12,7 @@ function sortTable(columnIndex) {
     sortTable.forEach(row => {
         table.append(row);
     });  
-
+}
 
 
 
